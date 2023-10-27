@@ -13,9 +13,20 @@ print(texto + " - " + nombre + " - " + altura + " - " + str(year))
 #print("El sitio web del usuario es: " + sitioweb)
 
 # Condiciones
-altura = input("¿Cual es tu altura?: ")
-if altura >=150
+altura = int(input("¿Cual es tu altura?: "))
+
+if altura >=150:
     print("Eres medianamente alto!!")
+else: 
+    print("Eres un minion!!")
+
+#Funciones
+var_altura = int(input("¿Cual es tu altura?: ")) 
+
+def mostrarAltura(altura):
+    resultado = ""
+    if altura >=150
+     print("Eres medianamente alto!!")
 else: 
     print("Eres un minion!!")
 
